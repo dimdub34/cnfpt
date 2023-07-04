@@ -31,6 +31,9 @@
                 height: 100%;
                 float: left;
             }
+            .left {
+                text-align: left
+            }
         </style>
 		<script>
 			var link = document.createElement( 'link' );
@@ -44,59 +47,66 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-                    <h2>Les sciences comportementales au service de la transition écologique</h2>
-                    <h4>O. De Lanauze, <u>D. Dubois</u>, S. Feti, R. Romaniuc</h4>
-                    <figure>
-                        <img src="img/ceem.png" alt="CEE-M" style="height: 85px" class="plain">
-                        <img src="img/um.png" alt="UM" style="height: 75px" class="plain">
-                        <img src="img/cnrs.png" alt="CNRS" style="height: 75px" class="plain">
-                        <img src="img/mbs.svg" alt="MBS" style="height: 75px" class="plain">
-                    </figure>
+                    <section>
+                        <h2>Les sciences comportementales au service de la transition écologique</h2>
+                        <h4>O. De Lanauze, <u>D. Dubois</u>, S. Feti, R. Romaniuc</h4>
+                        <figure>
+                            <img src="img/ceem.png" alt="CEE-M" style="height: 85px" class="plain">
+                            <img src="img/um.png" alt="UM" style="height: 75px" class="plain">
+                            <img src="img/cnrs.png" alt="CNRS" style="height: 75px" class="plain">
+                            <img src="img/mbs.svg" alt="MBS" style="height: 75px" class="plain">
+                        </figure>
+                    </section>
+                    <section class="left">
+                        <h4>Contenu</h4>
+                        <ol>
+                            <li><a href="#sciences_comportementales">Les sciences comportementales</a></li>
+                            <li><a href="#nudges">Nudges : des coups de pouce pour le changement de comportement</a></li>
+                            <li><a href="#nudges_environmentaux">Les nudges verts</a></li>
+                            <li><a href="#nudges_lecons">Recommandations pour la mise en place des nudges</a></li>
+                        </ol>
+                    </section>
                 </section>
 
-                <section>
+                <section id="sciences_comportementales">
                     <section>
                         <h2>Les sciences comportementales</h2>
+                        <figure style="text-align: center">
+                            <img src="img/behavsc2.jpg" alt="Behavioral Sciences" class="plain" style="width: 60%">
+                        </figure>
                     </section>
                     <section>
                         <ul class="with_space">
-                            <li>Domaine interdisplinaire qui s'appuie sur des principes de la psychologie, de l'économie, de la sociologie et d'autres disciplines connexes pour comprendre le comportement humain.</li>
-                            <li>Etudient comment les individus prennent des décisions et interagissent en se concentrant sur le rôle des émotions, des biais cognitifs, du contexte social et économique et d'autres facteurs psychologiques et environnementaux.</li>
-                            <li>Souvent utilisées pour développer des interventions qui encouragent des comportements plus bénéfiques pour l'individu ou la société, en matière de santé, d'éducation ou d'environnement.</li>
+                            <li>Domaine interdisplinaire qui étudie le comportement humain en utilisant des principes de psychologie, d'économie, de sociologie, etc.</li>
+                            <li>Etudient comment les émotions, les biais cognitifs, le contexte économique et social, et d'autres facteurs, influencent la prise de décision des individus.</li>
+                            <li>Souvent utilisées pour développer des interventions visant à favoriser des comportements bénéfiques pour l'individu ou la société, en matière de santé, d'éducation ou d'environnement.</li>
                         </ul>
                     </section>
-                    <section>
-                        <p style="text-align: left  "><strong>L'économie comportementale</strong></p>
+                    <section class="left">
+                        <h4>L'économie comportementale</h4>
                         <ul class="with_space">
-                            <li>Ne part pas du postulat que les individus sont des agents rationnels qui cherchent toujours à maximiser leur utilité.</li>
-                            <li>Reconnaît que les individus ont des biais cognitifs et émotionnels qui peuvent les amener à prendre des décisions qui ne sont pas nécessairement dans leur meilleur intérêt.</li>
-                            <li>A commencé à se développer dans le courant des années 1970, avec les travaux pionniers de Daniel Kahneman (Prix Nobel 2002) et Amos Tversky (Prix Nobel 2017).</li>
-                            <li>Cherche à concevoir des politiques et des interventions plus efficaces en exploitant/tenant compte de la dimension comportementale des individus.</li>
+                            <li>Remet en question l'idée que les individus sont toujours rationnels et cherchent à maximiser leur utilité.</li>
+                            <li>Reconnaît l'impact des biais cognitifs et émotionnels sur la prise de décision.</li>
+                            <li>S'est développée à partir des années 1970, grâce aux travaux de Daniel Kahneman et Amos Tversky.</li>
+                            <li>Vise à améliorer les politiques et interventions en tenant compte du comportement humain.</li>
                         </ul>
+                        <figure style="text-align: center; margin-top: 30px">
+                            <img src="img/kahneman-tversky.jpg" alt="Kahneman & Tversky" class="plain" style="border-radius: 5px">
+                        </figure>
                     </section>
-                    <section>
-                        <p style="text-align: left"><strong>Concepts clés</strong></p>
-                        <ul class="with_space">
-                            <li><u>Biais cognitifs</u> : les individus ont des biais cognitifs qui affectent leur prise de décision, tels que l'aversion à la perte, l'ancrage ou l'excès de confiance.</li>
-                            <li><u>Heuristiques</u> : règles empiriques que les individus utilisent pour simplifier la prise de décision, comme la représentativité ou la disponibilité.</li>
-                            <li><u>Altruisme et préférences sociales</u> : les préoccupations pour le bien-être des autres influencent les décisions économiques.</li>
-                            <li><u>Préférences temporelles</u> : les individus valorisent différemment les gains et les pertes à court terme par rapport à ceux à long terme.</li>
-                            <li><u>Environnement de choix</u> : le contexte et la manière dont les options sont présentées (architecture du choix) influencent les décisions.</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <p style="text-align: left"><strong>Exemple de différence entre théorie économique et observation: le jeu de l'ultimatum</strong></p>
-                        <ul>
+                    <section class="left">
+                        <h4>Le jeu de l'ultimatum <br><span style="font-size: 0.75em; font-style: oblique;">un exemple de différence entre théorie et observation</span></h4>
+                        <ul class="with_little_space">
                             <li>2 joueurs: le "proposant" dispose de 100€ et propose un partage de cette somme entre lui-même et le "répondant".</li>
                             <li>Le répondant peut accepter ou refuser l'offre.</li>
-                            <li>Si le répondant accepte l'offre, le montant est divisé comme proposé. Si il refuse, aucun des deux joueurs ne reçoit rien.</li>
+                            <li>Si le répondant accepte l'offre, le montant est réparti comme proposé. Si il refuse, aucun des deux joueurs ne reçoit rien.</li>
                         </ul>
-                        <p style="text-align: left"><i><u>Prédiction</u></i> : Le proposant devrait offrir la plus petite somme possible (1€) et le répondant devrait accepter toute offre positive, car recevoir une petite somme d'argent est toujours mieux que de ne rien recevoir du tout.
+                        <p><i><u>Prédiction</u></i> : Le proposant devrait offrir la plus petite somme possible (1€) et le répondant devrait accepter toute offre positive, car recevoir une petite somme d'argent est toujours mieux que de ne rien recevoir du tout.
                         </p>
-                        <p style="text-align: left"><i><u>Observation</u></i> : Les proposants offrent entre 40% et 50% de la somme totale, et les répondants majoritairement rejettent des offres qu'ils jugent injustes (< 20-30%), même si cela signifie qu'ils ne reçoivent rien.
+                        <p><i><u>Observation</u></i> : Les proposants offrent entre 40% et 50% de la somme totale, et les répondants majoritairement rejettent des offres qu'ils jugent injustes (< 20-30%), même si cela signifie qu'ils ne reçoivent rien.
                         </p>
                     </section>
-                    <section style="text-align: left">
+                    <section class="left">
                         <p>
                             Cet exemple, et beaucoup d'autres issus d'études scientifiques, montrent que les individus ne sont pas toujours parfaitement rationnels ou égoïstes.
                         </p>
@@ -104,25 +114,47 @@
                             Ils peuvent se soucier de l'équité, être disposés à coopérer avec les autres, et prendre des décisions qui ne maximisent pas nécessairement leur propre gain.
                         </p>
                         <p>
-                            Ces comportements peuvent être influencés par une variété de facteurs, y compris les normes sociales, les émotions, et les biais cognitifs.
+                            Ces comportements peuvent être influencés par une variété de facteurs, des normes sociales, des émotions, et des biais cognitifs.
                         </p>
                     </section>
-                    <section>
-                        <p style="text-align: left"><strong>Les biais cognitifs</strong></p>
-                        <img src="img/biais_codex.webp" class="plain" style="height: 500px" alt="codex biais">
-                    </section>
-                    <section>
-                        <p style="text-align: left  "><strong>Exemples</strong></p>
-                        <ul class="with_space">
-                            <li><u>Biais de confirmation</u> : Les individus ont tendance à chercher, interpréter et se souvenir des informations qui confirment leurs croyances préexistantes.</li>
-                            <li><u>Biais d'immédiateté</u> : Les individus ont tendance à préférer les récompenses immédiates aux bénéfices à long terme.</li>
-                            <li><u>Biais de statu quo</u> : Les individus ont tendance à préférer que les choses restent dans leur état actuel; ils sont généralement réticents à changer ou à prendre des décisions qui entraîneraient un changement, même si ce changement pourrait être bénéfique.</li>
+                    <section class="left">
+                        <h4>Concepts clés</h4>
+                        <ul class="with_space" style="font-size: 0.85em">
+                            <li><strong>Biais cognitifs</strong> : Erreurs systématiques de pensée qui affectent les jugements et les décisions.</li>
+                            <li><strong>Heuristiques</strong> : Règles simplifiées et raccourcis mentaux utilisés pour simplifier la prise de décision.</li>
+                            <li><strong>Altruisme et préférences sociales</strong> : Le bien-être des autres impacte les décisions économiques.</li>
+                            <li><strong>Préférences temporelles</strong> : Les gains et pertes sont valorisés différemment à court et long terme.</li>
+                            <li><strong>Environnement de choix</strong> : Le contexte et la présentation des options influencent les décisions.</li>
                         </ul>
                     </section>
-                    <section>
-                        <p style="text-align: left"><strong>Les heuristiques</strong></p>
+                    <section class="left">
+                        <h4>Les biais cognitifs</h4>
+                        <figure style="text-align: center">
+                            <img src="img/biais_codex.webp" class="plain" style="height: 500px" alt="codex biais">
+                        </figure>
                     </section>
-                    <section style="text-align: left">
+                    <section class="left">
+                        <h4>Exemples de biais cognitifs</h4>
+                        <ul class="with_space">
+                            <li><strong>Biais de confirmation</strong> : Les individus ont tendance à chercher, interpréter et se souvenir des informations qui confirment leurs croyances préexistantes.</li>
+                            <li><strong>Biais d'immédiateté</strong> : Les individus ont tendance à préférer les récompenses immédiates aux bénéfices à long terme.</li>
+                            <li><strong>Biais de statu quo</strong> : Les individus ont tendance à préférer que les choses restent dans leur état actuel; ils sont généralement réticents à changer ou à prendre des décisions qui entraîneraient un changement, même si ce changement pourrait être bénéfique.</li>
+                        </ul>
+                    </section>
+                    <section class="left">
+                        <h4>Exemples d'heuristiques</h4>
+                        <div style="width: 80%; float: left">
+                            <ul class="with_space">
+                                <li><strong>Heuristique de disponibilité :</strong> Les individus estiment la probabilité d'un événement en fonction de la facilité avec laquelle ils peuvent se rappeler des exemples similaires.</li>
+                                <li><strong>Heuristique de représentativité :</strong> Les individus jugent la probabilité qu'un objet ou un individu appartienne à une certaine catégorie en fonction de sa ressemblance avec les membres de cette catégorie.</li>
+                                <li><strong>Heuristique d'ancrage :</strong> Les individus ont tendance à s'appuyer fortement sur la première information qu'ils reçoivent lorsqu'ils prennent des décisions.</li>
+                            </ul>
+                        </div>
+                        <div style="width: 20%; float: left">
+                            <img src="img/Mindmap.gif" alt="Heuristique" class="plain">
+                        </div>
+                    </section>
+                    <section class="left">
                         <p><strong>Méthode d'investigation : l'économie expérimentale</strong></p>
                         <div style="width: 50%; float: left; font-size: 0.75em">
                             <p>
@@ -145,26 +177,31 @@
                     </section>
                 </section>
 
-                <section>
+                <section id="nudges">
                     <section>
-                        <h2>Aider au changement de comportement</h2>
+                        <h2>Nudges : des coups de pouce pour le changement de comportement</h2>
+                        <figure style="text-align: center">
+                            <img src="img/nudge_book.jpg" alt="Nudge" style="height: 300px" class="plain">
+                        </figure>
                     </section>
-                    <section>
-                        <p style="text-align: left">
-                        <strong><u>Nudge / coup de pouce</u></strong> : concept popularisé par Richard Thaler et Cass Sunstein dans leur livre "Nudge: Improving Decisions about Health, Wealth, and Happiness" (2008).
-                    </p>
-                    <ul class="with_space">
-                        <li>Intervention simple et peu coûteuse qui vise à orienter les choix des individus tout en leur laissant la liberté de choisir.</li>
-                        <li>Conçus pour exploiter les biais cognitifs et émotionnels des individus afin de les amner à prendre des décisions qui sont dans leur meilleur intérêt à long terme.</li>
-                        <li>À la différence d’une sanction ou d’une interdiction, le nudge n’est pas coercitif, c'est du "paternalisme libertaire".</li>
-                    </ul>
+                    <section class="left">
+                        <p>
+                        <strong>Nudge</strong> : concept popularisé par Richard Thaler et Cass Sunstein dans leur livre "Nudge: Improving Decisions about Health, Wealth, and Happiness" (2008).
+                        </p>
+                        <ul class="with_space">
+                            <li>Intervention simple et peu coûteuse qui vise à orienter les choix des individus tout en leur laissant la liberté de choisir.</li>
+                            <li>Conçus pour exploiter les biais cognitifs et émotionnels des individus afin de les amner à prendre des décisions qui sont dans leur meilleur intérêt à long terme.</li>
+                            <li>À la différence d’une sanction ou d’une interdiction, le nudge n’est pas coercitif, c'est du "paternalisme libertaire".</li>
+                        </ul>
                     </section>
-                    <section>
-                        <p style="text-align: left"><strong>Les nudge units dans le monde</strong></p>
-                        <img src="img/BI.jpeg" alt="Nudge Units" class="plain" style="height: 500px">
+                    <section class="left">
+                        <p><strong>Les nudge units dans le monde</strong></p>
+                        <figure style="text-align: center">
+                            <img src="img/BI.jpeg" alt="Nudge Units" class="plain" style="height: 500px">
+                        </figure>
                     </section>
-                    <section>
-                        <p style="text-align: left"><strong>Exemples de nudges</strong></p>
+                    <section class="left">
+                        <p><strong>Exemples de nudges</strong></p>
                         <div style="width: 75%; float: left">
                             <p style="font-size: 0.75em; text-align: left;">
                                 Mouche dans l’urinoir : réduction de 70% des coûts de nettoyage (Aéroport de Schiphol aux Pays-bas)
@@ -200,12 +237,15 @@
                     </section>
                 </section>
 
-                <section>
+                <section id="nudges_environmentaux">
                     <section>
-                        <h2>Applications aux problématiques environnementales</h2>
-                        <p><em>Comment transformer les intentions pro-environnementales des individus en actions concrètes ?</em></p>
+                        <h2>Les nudges verts</h2>
+                        <h3>Comment transformer les intentions pro-environnementales des individus en actions concrètes ?</h3>
+                        <figure style="text-align: center">
+                            <img src="img/nudges_verts.jpg" alt="Nudges verts" class="plain" style="width: 60%; border-radius: 5px">
+                        </figure>
                     </section>
-                    <section style="text-align: left">
+                    <section class="left">
                         <p>
                             <strong>L'option par défaut sur des contrats d'énergie</strong>, Pichert & Katsikopoulos<br>
                             <span style="font-size:0.75em; font-style: italic">Journal of Environmental Psychology, 2008</span>
@@ -228,7 +268,7 @@
                             </div>
                         </div>
                     </section>
-                    <section style="text-align: left">
+                    <section class="left">
                         <p>
                             <strong>Les normes sociales pour réduire la consommation d'eau</strong>, Ferraro & Price<br>
                             <span style="font-size:0.75em; font-style: italic">Review of Economics and Statistics, 2013</span>
@@ -247,7 +287,7 @@
                             </ul>
                         </div>
                     </section>
-                    <section style="text-align: left">
+                    <section class="left">
                         <p><u>Résultats</u></p>
                         <div style="width: 60%; float: left; font-size: 0.75em">
                             <ul>
@@ -269,24 +309,41 @@
                             <img src="img/ferraro_2.png" alt="Ferraro 2" style="height: 250px;" class="plain">
                         </div>
                     </section>
-                </section>
-
-                <section>
-                    <section>
-                        <h2>Principaux enseignements</h2>
-                    </section>
-                    <section style="text-align: left">
-                        <p><strong>Etapes pour la mise en place d’un nudge</strong></p>
-                        <ul class="with_little_space">
-                            <li><u>Ciblage</u> : déterminer la population cible, analyser le terrain et fixer les objectifs.</li>
-                            <li><u>Idéation</u> : processus créatif permettant de révéler, former et expliciter des idées. Sélection des meilleures idées, efficaces et peu coûteuses. </li>
-                            <li><u>Test</u> : pour chacun des dispositifs, une phase de test impliquant les acteurs de terrain afin de s’assurer que les personnes touchées font évoluer leur comportement à court terme, mais également à plus long terme, une fois l’effet de surprise passé.</li>
-                            <li><u>Adaptation / Sélection</u> : adapter si besoin le nudge suite aux tests et mesures, sélectionner les dispositifs les plus efficaces</li>
-                            <li><u>Mise en place à grande échelle</u> : expérimentation du dispositif retenu, sur plusieurs terrains, et mise en œuvre généralisée .</li>
+                    <section class="left">
+                        <h4>Autres résultats de la littérature</h4>
+                        <ul>
+                            <li>Les normes descriptives (ce qui est fait) et injonctives (ce qu'il faudrait faire) sont complémentaires (Bonan, Cattaneo, d’Adda & Tavoni, <em>Nature Energy</em> 2020)</li>
+                            <li>L'efficacité des nudges peut être renforcée lorsqu'ils sont combinés avec des interventions qui favorisent l'adoption de technologies économes en énergie (Brandon et al., <em>National Bureau of Economic Research</em> 2022)</li>
                         </ul>
                     </section>
-                    <section style="text-align: left">
-                        <p><strong>Thématiques de recherche du Centre d'Economie de l'Environment de Montpellier (CEE-M)</strong></p>
+                    <section class="left">
+                        <h3>Limites</h3>
+                        <ul class="with_little_space" style="font-size: 0.75em">
+                            <li><strong>Effets rebonds</strong> : Les individus peuvent compenser les comportements écologiques encouragés par les nudges par d'autres comportements moins écologiques.</li>
+                            <li><strong>Sensibilité aux caractéristiques individuelles</strong> : L'efficacité des nudges peut varier en fonction des caractéristiques individuelles, comme les attitudes environnementales ou le niveau d'éducation.</li>
+                            <li><strong>Acceptabilité sociale</strong> : Certaines personnes peuvent voir les nudges comme une forme de manipulation ou de contrôle, ce qui peut susciter des réactions négatives.</li>
+                            <li><strong>Effets potentiellement limités dans le temps</strong> : Les effets des nudges peuvent s'estomper avec le temps si les individus s'habituent à la nouvelle norme ou au nouvel environnement de choix.</li>
+                            <li><strong>Mais aussi</strong> : difficultés de transposition à grande échelle, dépendance au contexte institutionnel, résistance au changement etc.</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section id="nudges_lecons">
+                    <section>
+                        <h2>Recommandations pour la mise en place des nudges</h2>
+                    </section>
+                    <section class="left">
+                        <ul class="with_little_space" style="font-size: 0.75em">
+                            <li><strong>Ciblage</strong> : déterminer la population cible, analyser le terrain et fixer les objectifs.</li>
+                            <li><strong>Idéation</strong> : processus créatif permettant de révéler, former et expliciter des idées. Sélection des meilleures idées, efficaces et peu coûteuses. </li>
+                            <li><strong>Test</strong> : pour chacun des dispositifs, une phase de test impliquant les acteurs de terrain afin de s’assurer que les personnes touchées font évoluer leur comportement à court terme, mais également à plus long terme, une fois l’effet de surprise passé.</li>
+                            <li><strong>Adaptation / Sélection</strong> : adapter si besoin le nudge suite aux tests et mesures, sélectionner les dispositifs les plus efficaces</li>
+                            <li><strong>Mise en place à grande échelle</strong> : expérimentation du dispositif retenu sur plusieurs terrains et mise en œuvre généralisée .</li>
+                        </ul>
+                        <p>Il est recommandé d'utiliser plusieurs techniques de nudging en même temps pour augmenter leur efficacité.</p>
+                    </section>
+                    <section class="left">
+                        <p><strong>Thématiques de recherche du Centre d'Economie de l'Environnement de Montpellier (CEE-M)</strong></p>
                         <div style="width: 75%; float: left">
                             <ul>
                                 <li>biodiversité</li>
@@ -295,6 +352,7 @@
                                 <li>politique agricole / pesticides</li>
                                 <li>finance verte</li>
                                 <li>prise en compte / gestion des risques environnementaux</li>
+                                <li>transport</li>
                             </ul>
                         </div>
                         <div style="width: 25%; float: left">
@@ -303,7 +361,7 @@
                     </section>
                 </section>
 
-                <section>
+                <section id="references">
                     <section>
                         <h2>Références</h2>
                     </section>
@@ -312,6 +370,33 @@
                             <li>Harrison, G. W. & List, J.A. (2004); Field Experiments. Journal of Economic Literature 42, 1009–1055.</li>
                             <li>Kahneman, D. (2011). Thinking, fast and slow. London: Penguin Books.</li>
                             <li>Thaler, R. H., & Sunstein, C. R. (2008). Nudge: improving decisions about health. Wealth, and Happiness, Yale University Press.</li>
+                            <li>Wee, S.C., Choong, W.W. & Low, S.T. (2021), Can Nudging play a role to promote pro-environnemental behaviour ?, Environmental Challenges 5.</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section id="appendix">
+                    <section>
+                        <h2>Appendice</h2>
+                    </section>
+                    <section class="left">
+                        <p>
+                            <strong>Méta-analyse sur les nudges</strong>, Wee, Choong & Low<br>
+                            <span style="font-size:0.75em; font-style: italic">Environmental Challenges, 2021</span>
+                        </p>
+                        <p>7 techniques de nudge efficaces pour favoriser les comportements pro-environnementaux</p>
+                        <ul style="font-size: 0.75em" class="with_space">
+                            <li><u>Le "prompting"</u> : utiliser des informations non personnalisées pour promouvoir ou sensibiliser à un comportement ciblé. Par exemple, fournir des informations sur la conservation de l'environnement ou sur ce que font les autres pour le bien de l'environnement.</li>
+                            <li><u>Le "sizing"</u> : changer la taille ou la quantité de l'objet. Par exemple, agrandir la taille des poubelles de recyclage pour encourager le comportement de recyclage, ou réduire la taille des assiettes pour réduire le gaspillage alimentaire.</li>
+                            <li><u>La "proximité"</u> : rendre les options comportementales plus faciles ou plus difficiles à adopter. Par exemple, faire des réglages pro-environnementaux les réglages par défaut (comme l'impression recto-verso), ou changer l'emplacement des produits pro-environnementaux pour les rendre plus proches des gens.</li>
+                        </ul>
+                    </section>
+                    <section class="left">
+                        <ul style="font-size: 0.75em" class="with_space">
+                            <li><u>Le "priming"</u> : exposer les individus à un stimulus spécifique pour influencer leur comportement ultérieur sans qu'ils en soient conscients. Par exemple, exposer les individus à des images ou des mots liés à l'environnement avant qu'ils ne prennent une décision peut les amener à prendre des décisions plus respectueuses de l'environnement.</li>
+                            <li><u>La "présentation"</u> : présenter les options de manière à influencer le choix de l'individu. Par exemple, présenter les options de manière à ce que l'option pro-environnementale semble être le meilleur choix.</li>
+                            <li><u>Le "labelling"</u> : mettre en évidence des informations spécifiques sur un produit ou une option. Par exemple, étiqueter les caractéristiques d'économie d'énergie sur les appareils électriques, ou indiquer la quantité d'émissions de gaz à effet de serre produites lors de la fabrication d'un aliment.</li>
+                            <li><u>Le "design fonctionnel"</u> : modifier le design fonctionnel de l'objet ou de l'environnement. Par exemple, changer la forme du papier toilette en carrés pour éviter la surconsommation.</li>
                         </ul>
                     </section>
                 </section>
